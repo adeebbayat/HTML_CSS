@@ -1,0 +1,56 @@
+
+
+
+#topBar{
+    background-color: rgb(23,162,184);
+    width:75%;
+    height:75px; 
+    margin:auto;
+    margin-bottom:0px;
+    margin-top: 50px;
+    border: 3px solid rgb(23,162,184);
+}
+
+#profile{
+    width:100px;
+    position: relative;
+    top:25px;
+    left:20px;
+    margin:0px;
+}
+
+#background{
+    background-color: white;
+    border: 3px solid grey;
+    width:75%;
+    height:225px;
+    margin:auto;
+    margin-top: 0px;
+}
+
+h2 {
+    margin: 50px 0px 0px 30px;
+}
+h3{
+    display: inline-block;
+    margin:5px 0px 0px 5px;
+}
+
+h4 {
+    margin: 5px 0px 0px 30px;
+}
+a{
+    display: inline-block;
+    margin:5px 0px 0px 5px;
+}
+#map {
+    width:10px;
+    display: inline-block;
+    margin:5px 0px 0px 30px;
+
+}
+
+#gear {
+    width:15px;
+    margin:5px 0px 0px 30px;
+}

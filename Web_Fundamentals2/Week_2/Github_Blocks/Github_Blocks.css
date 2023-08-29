@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(68,72,90);
+    font-size: 35pt;
+}
+
+#background{
+    background-color: rgb(246,246,255);
+    height: 1000px;
+    border-block: 3px solid black;
+    padding: 0px 20px;
+    
+}
+
+#blueBox{
+    background-color: rgb(86,198,239);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blueBox img {
+    height: 200px;
+    background-color: white;
+    
+}
+
+#pinkBox {
+    background-color: rgb(209,167,179);
+    padding:25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    
+}
+
+#pinkBox img{
+    height: 200px;
+    background-color: white;
+
+}
+
+#whiteBox{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#whiteBox img{
+    height:200px;
+}

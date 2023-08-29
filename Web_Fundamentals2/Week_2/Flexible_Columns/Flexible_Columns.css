@@ -1,0 +1,59 @@
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px -20px;
+}
+
+
+.row1 .col {
+    background-color: rgb(101,157,161);
+    padding: 15px 0px 15px 15px;
+    color: white;
+    flex: 1;
+    margin:10px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px -20px;
+}
+
+.row2 .col {
+    background-color: rgb(101,157,161);
+    padding: 15px 0px 15px 15px;
+    color: white;
+    flex: 1;
+    margin:10px;
+}
+
+.row2 .col-2 {
+    background-color: rgb(101,157,161);
+    padding: 15px 0px 15px 15px;
+    color: white;
+    flex: 2;
+    margin:10px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px -20px;
+}
+
+.row3 .col-2 {
+    background-color: rgb(101,157,161);
+    padding: 15px 0px 15px 15px;
+    color: white;
+    flex: 2;
+    margin:10px;
+}
+
+.row3 .col-3 {
+    background-color: rgb(101,157,161);
+    padding: 15px 0px 15px 15px;
+    color: white;
+    flex: 3;
+    margin:10px;
+}

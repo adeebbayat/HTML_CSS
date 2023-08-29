@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+/* Navigation Bar */
+
+#NavBar{
+    background-color: rgb(0,0,0);
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#NavBar .LeftNav{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.navLink{
+    list-style: none;
+    color: white;
+    margin:0px 30px 0px 50px;
+}
+
+#Navbar .RightNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    background-color: rgb(23,162,184);
+    width:100px;
+    height:30px;
+    color: white;
+}
+/* Top Row */
+
+#TopRow{
+    width:75%;
+    margin:auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+/* Top Left Box */
+
+#TopLeftBox{
+    margin:0px 50px 0px -25px;
+}
+#topBar{
+    background-color: rgb(23,162,184);
+    width:400px;
+    height:75px; 
+    margin:auto;
+    margin-bottom:0px;
+    margin-top: 50px;
+    border: 3px solid rgb(23,162,184);
+}
+
+#profile{
+    width:90px;
+    position: relative;
+    top:30px;
+    left:20px;
+    margin:0px;
+}
+
+#background{
+    background-color: white;
+    border: 3px solid grey;
+    width:400px;
+    height:225px;
+    margin:auto;
+    margin-top: 0px;
+}
+
+h2 {
+    margin: 50px 0px 0px 30px;
+}
+h3{
+    display: inline-block;
+    margin:5px 0px 0px 5px;
+}
+
+h4 {
+    margin: 10px 0px 0px 30px;
+}
+a{
+    display: inline-block;
+    margin:15px 0px 0px 5px;
+}
+#map {
+    width:10px;
+    display: inline-block;
+    margin:5px 0px 0px 30px;
+
+}
+
+#gear {
+    width:15px;
+    margin:5px 0px 0px 30px;
+}
+
+/* Top Right Box */
+
+
+#ConReqTop{
+    background-color: rgb(0,0,0);
+    color:white;
+    width:250px;
+    height:75px; 
+    margin-top:50px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ConReqBot{
+    width:250px;
+    height:100px;
+    background-color: white;
+    border: 3px solid grey;
+}
+
+.ConReqPro{
+    width:25px;
+}
+
+#ConReqAcc1,#ConReqAcc2{
+    width:25px;
+    margin: 0px 10px 0px 10px;
+}
+
+#ConReqX1,#ConReqX2{
+    width:25px;
+    margin: 0px 10px 0px 10px;
+}
+
+#TopLine{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:15px 0px;
+}
+
+#BotLine{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:15px 0px;
+}
+
+#ConReqAcc1{
+    position:relative;
+    top:0px;
+    left:75px;
+}
+
+#ConReqX1{
+    position:relative;
+    top:0px;
+    left:65px;
+}
+
+#ConReqAcc2{
+    position:relative;
+    top:0px;
+    left:83px;
+}
+
+#ConReqX2{
+    position:relative;
+    top:0px;
+    left:73px;
+}
+
+
+/* Bottom Left Box */
+
+#BotRow{
+    width:75%;
+    margin:auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+#EduTop{
+    background-color: black;
+    border: 3px solid black;
+    width: 400px;
+    height:40px;
+    margin:auto;
+    margin:30px 50px 0px -25px;
+    color:white;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#title{
+    margin:0px 0px 0px 5px;
+
+}
+
+#EduBot{
+    background-color: white;
+    width: 400px;
+    height:120px;
+    border: 3px solid grey;
+    margin:auto;
+    margin:0px 50px 0px -25px;
+}
+
+#header{
+    font-size: 15pt;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0px 0px 5px;
+}
+
+#date{
+    font-size: 12pt;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0px 0px 5px;
+}
+
+#text{
+    font-size: 14pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0px 0px 5px;
+}
+
+/* Bottom Right Box */
+
+#UrConTop{
+    background-color: black;
+    border: 3px solid black;
+    width: 250px;
+    height:50px;
+    margin:auto;
+    margin: -110px 0px 0px 0px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#UrConBot{
+    background-color: white;
+    width: 250px;
+    height:200px;
+    border: 3px solid grey;
+    margin:auto;
+    
+}
+
+#UrConBotBot{
+    background-color: white;
+    width: 250px;
+    height:50px;
+    border: 3px solid grey;
+    margin:auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13pt;
+}
+
+#UrCon1, #UrCon2, #UrCon3, #UrCon4{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:15px 0px;
+}
+
+.ConReqPro{
+    margin:0px 10px 0px 10px;
+}
+
+#View{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
